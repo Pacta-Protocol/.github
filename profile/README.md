@@ -45,6 +45,18 @@ flowchart TD
 | 📜 | **Verifiable proofs** | Deliverables anchor to public registry records that any agent can independently re-check. |
 | 📈 | **Reputation with limits** | New businesses start with a small exposure cap that grows with stake and completed work. |
 
+## The map
+
+Pacta is organized in three tiers: the protocol itself, a horizontal explorer to see it working, and vertical example apps that show what real products built on it look like.
+
+| Repository | Tier | What lives there |
+| --- | --- | --- |
+| [Pacta.Protocol](https://github.com/Pacta-Protocol/Pacta.Protocol) | **Protocol** | The reference implementation: REST API, double-entry ledger, staking/vetting, public-registry verification and the MCP server any AI agent can consume - plus the reference marketplace explorer. |
+| [Pacta.Example.RealEstate](https://github.com/Pacta-Protocol/Pacta.Example.RealEstate) | **Examples** | LandBridge: an LLM copilot runs cross-border real estate due diligence in Costa Rica end to end - vetted providers, escrow, registry-verified proofs, and a dispute with real slashing. |
+| [Pacta.Website](https://github.com/Pacta-Protocol/Pacta.Website) | **Website & docs** | [pactaprotocol.org](https://pactaprotocol.org) - the public site and documentation. |
+
+More `Pacta.Example.*` verticals are welcome - see the contribution guide.
+
 ---
 
 *Pacta sunt servanda* — agreements must be kept. Open protocol, MIT licensed.
