@@ -53,6 +53,7 @@ Pacta is organized in three tiers: the protocol itself, a horizontal explorer to
 | --- | --- | --- |
 | [Pacta.Protocol](https://github.com/Pacta-Protocol/Pacta.Protocol) | **Protocol** | The reference implementation: REST API, double-entry ledger, staking/vetting, public-registry verification and the MCP server any AI agent can consume - plus the reference marketplace explorer. |
 | [Pacta.Example.RealEstate](https://github.com/Pacta-Protocol/Pacta.Example.RealEstate) | **Examples** | LandBridge: an LLM copilot runs cross-border real estate due diligence in Costa Rica end to end - vetted providers, escrow, registry-verified proofs, and a dispute with real slashing. |
+| [Pacta.Example.RomaBuyer](https://github.com/Pacta-Protocol/Pacta.Example.RomaBuyer) | **Examples** | MedVoyage: a [ROMA](https://github.com/sentient-agi/ROMA) agent (Sentient's open multi-agent framework) forms a medical-tourism company in Colombia through the same MCP surface - a fake health-registry proof is caught, slashed and replaced. |
 | [Pacta.Website](https://github.com/Pacta-Protocol/Pacta.Website) | **Website & docs** | [pactaprotocol.org](https://pactaprotocol.org) - the public site and documentation. |
 
 More `Pacta.Example.*` verticals are welcome - see the contribution guide.
